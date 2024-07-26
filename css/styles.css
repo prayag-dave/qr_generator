@@ -1,0 +1,113 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #fbc2eb, #a6c0fe); /* Gradient background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Header Styles */
+.card-body h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group label {
+    font-weight: 500;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* QR Code Result Styles */
+#qrCodeResult img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Centered Div */
+.d-flex {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-body h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .form-control {
+        padding: 12px;
+    }
+}
