@@ -23,5 +23,4 @@ A simple web application for generating QR codes. This project allows users to i
 
 1. Clone the repository:
 
-   cd qr_generator
    git clone https://github.com/prayag-dave/qr_generator
