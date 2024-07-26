@@ -1,4 +1,7 @@
-# QR Code Generator
+## Screenshots
+![Screenshot of the QR Code Generator](images/main_page.png)
+![Another Screenshot](images/result.png)
+## QR Code Generator
 
 A simple web application for generating QR codes. This project allows users to input a URL and generate a QR code image that can be displayed, downloaded as an image, or saved as a PDF.
 
